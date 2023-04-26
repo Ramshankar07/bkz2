@@ -136,7 +136,7 @@ h6 {
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
-#header #logo h1 {
+#header #logo h1 {s
   font-size: 42px;
   margin: 0;
   padding: 0;
@@ -155,7 +155,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  width: 150px;
+  width: 350px;
 }
 
 @media (max-width: 768px) {
@@ -168,7 +168,9 @@ h6 {
   }
 
   #header #logo img {
-    max-height: 70px;
+    max-height: 40px;
+    max-width: 70%;
+
   }
 }
 
@@ -265,7 +267,21 @@ h6 {
   top: 100%;
   visibility: visible;
 }
+.navbar ul a .cta-btn{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #ff0000;
+  color: #f90000;
 
+
+}
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
@@ -312,6 +328,21 @@ h6 {
 
   .navbar ul {
     display: none;
+  }
+  .navbar ul a .cta-btn{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 6px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #ff0000;
+    color: #f90000;
+  
+  
   }
 }
 
@@ -363,6 +394,7 @@ h6 {
 .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
+
 
 .navbar-mobile .dropdown ul {
   position: static;
@@ -961,6 +993,26 @@ section {
   #testimonials .testimonial-item {
     margin: 30px 10px;
   }
+}
+
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #ff0000;
+  color: #f90000;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #128e69;
+  border: 3px solid #128e69;
 }
 
 #testimonials .testimonial-item .testimonial-img {
